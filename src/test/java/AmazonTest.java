@@ -68,6 +68,7 @@ public class AmazonTest {
         String finalResult = driver.findElement(AmazonHomePage.aboutThisItem).getText();
 
         assertEquals("About this item", finalResult);
+        System.out.println(finalResult);
 
 
     }
